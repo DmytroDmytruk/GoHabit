@@ -14,29 +14,26 @@ SOURCES += \
     auth_window.cpp \
     dataset.cpp \
     main.cpp \
+    menu.cpp \
     mainwindow.cpp \
-    reg_window.cpp
-    auth_window.cpp
-    reg_window.cpp
+    reg_window.cpp \
 
 HEADERS += \
+    menu.h \
     createhabit.h \
     addhabit.h \
     auth_window.h \
     dataset.h \
     mainwindow.h \
     reg_window.h
-    auth_window.h
-    reg_window.h
 
 FORMS += \
+    menu.ui \
     createhabit.ui \
     addhabit.ui \
     auth_window.ui \
     mainwindow.ui \
-    reg_window.ui
-    auth_window.ui
-    reg_window.ui
+    reg_window.ui \
 
 
 # Default rules for deployment.

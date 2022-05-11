@@ -7,6 +7,7 @@
 #include <QtSql/QtSql>
 #include "reg_window.h"
 #include "addhabit.h"
+#include "menu.h"
 
 
 
